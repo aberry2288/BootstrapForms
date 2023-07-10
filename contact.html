@@ -13,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="/css/site.css" rel="stylesheet">
+
+    <!-- Custom CSS For Background -->
+    <link href="/css/contact.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -47,6 +50,48 @@
     </header>
 
     <main class="container">
+        <h1 class="text-center text-light pt-2"> Contact Me</h1>
+        <div class="bg-light p-3 border border-2 border-info shadow-lg">
+            <form action="#">
+                <div class="row row-cols-1">
+                    <div class="col col-md-6">
+                        <label for="FirstName" class="form-label">First Name</label>
+                        <input class="form-control" name="FirstName" Id="FirstName" type="text" placeholder="First Name"
+                            aria-label="First Name" required />
+                    </div>
+                    <div class="col col-md-6">
+                        <label for="LastName" class="form-label">Last Name</label>
+                        <input class="form-control" name="LastName" Id="LastName" type="text" placeholder="Last Name"
+                            aria-label="Last Name" required />
+                    </div>
+                    <div class="col col-md-6">
+                        <label for="Email" class="form-label">Email</label>
+                        <input class="form-control" name="Email" Id="Email" type="Email" placeholder="Email"
+                            aria-label="Email" required />
+                    </div>
+                    <div class="col col-md-6">
+                        <label for="Phone" class="form-label">Phone (optional)</label>
+                        <input class="form-control" name="Phone" Id="Phone" type="tel" placeholder="Phone"
+                            aria-label="Phone" />
+                    </div>
+                    <div class="col">
+                        <label for="Subject" class="form-label">Subject</label>
+                        <input class="form-control" name="Subject" Id="Subject" type="text" placeholder="Subject"
+                            aria-label="Subject" required />
+                    </div>
+                    <div class="col">
+                        <label for="Message" class="form-label">Message</label>
+                        <textarea class="form-control" name="Message" Id="Message" type="text" placeholder="Message"
+                            aria-label="Message" required rows="4" required></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
 
     </main>
 
@@ -56,7 +101,7 @@
             <div class="col text-md-center">Bootstrap Forms</div>
             <div class="col text-md-end">aberry2288@gmail.com</div>
         </div>
-        
+
     </footer>
 
 
